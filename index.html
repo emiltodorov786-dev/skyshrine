@@ -15,8 +15,12 @@ body {
 header {
   padding: 100px 20px;
 }
+
+<img src="https://imgur.com/a/opLkG7i" style="width:80%; max-width:800px; border-radius:15px; box-shadow:0 0 20px black;">
+  
 h1 {
   font-size: 3em;
+  text-shadow: 0 0 15px #00ffff;
 }
 button {
   padding: 15px 30px;
@@ -34,11 +38,13 @@ button:hover {
   padding: 60px 20px;
 }
 .card {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
   margin: 20px auto;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 25px;
+  border-radius: 15px;
   max-width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 footer {
   padding: 20px;
@@ -54,6 +60,7 @@ footer {
   <button onclick="copyIP()">Copy Server IP</button>
 </header>
 
+ <hr style="width:50%; border:1px solid rgba(255,255,255,0.3);">
 <div class="section">
   <h2>About Sky Shrine</h2>
   <div class="card">
@@ -61,6 +68,7 @@ footer {
   </div>
 </div>
 
+<hr style="width:50%; border:1px solid rgba(255,255,255,0.3);">
 <div class="section">
   <h2>Server Info</h2>
   <div class="card">
